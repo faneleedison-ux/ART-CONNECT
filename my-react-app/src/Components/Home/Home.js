@@ -1,8 +1,12 @@
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import Logo from './Logo/Logo.png';
 import './home.css';
 import Menu from '../Menu/Menu';
+import About from '../About/About';
+import News from '../News/News';
+import Contact from '../Contact/Contact';
 
 function BasicExample() {
   return (
@@ -19,6 +23,7 @@ function BasicExample() {
 		<Button className='button' variant="primary">ABOUT</Button>
 		<Button  className='button' variant="primary">NEWS</Button>
 		<Button  className='button' variant="primary">CONTACT</Button>
+		
       </Card.Body>
     </Card>
   );
