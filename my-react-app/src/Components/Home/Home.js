@@ -1,21 +1,24 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Logo from './Logo/Logo.png';
+import './home.css';
+import Menu from '../Menu/Menu';
 
 function BasicExample() {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top"  src={Logo}  />
+    <Card style={{ width: '18rem' }} className='card'>
+      <Card.Img variant="outlined"  src={Logo}  />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>WELCOME TO ART CONNECT
+		
+		</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+		Connecting South Africa's top artists. On a single swipe, connect with artists and hire. Earn money by creating. On Art Connect finding local entertainment is as close as your fingertips.
         </Card.Text>
-        <Button variant="primary">CONNECT</Button>
-		<Button variant="primary">ABOUT</Button>
-		<Button variant="primary">NEWS</Button>
-		<Button variant="primary">CONTACT</Button>
+        
+		<Button className='button' variant="primary">ABOUT</Button>
+		<Button  className='button' variant="primary">NEWS</Button>
+		<Button  className='button' variant="primary">CONTACT</Button>
       </Card.Body>
     </Card>
   );
