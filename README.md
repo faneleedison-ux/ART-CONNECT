@@ -4,4 +4,5 @@ Art Connect is a South African business and employment-focused online service th
 
 WEBSITE IS HOSTED ON VERCEL
 
-LINK: https://my-react-app-faneleedison-ux.vercel.app/
+
+https://my-react-p7mbmdmmo-faneleedison-ux.vercel.app/
