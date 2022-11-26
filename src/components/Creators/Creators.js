@@ -127,19 +127,28 @@ function Creators () {
         ))}
       </div>
       <div className='buttons'>
-        <button style={{ backgroundColor: !canSwipe && '#c3c4d3' }} onClick={() => swipe('left')}>Swipe left!</button>
+        <button style={{ backgroundColor: !canSwipe && '#c3c4d3' }} onClick={() => swipe('left')}>No Interview!</button>
         <button style={{ backgroundColor: !canGoBack && '#c3c4d3' }} onClick={() => goBack()}>Undo swipe!</button>
-        <button style={{ backgroundColor: !canSwipe && '#c3c4d3' }} onClick={() => swipe('right')}>Swipe right!</button>
+        <button style={{ backgroundColor: !canSwipe && '#c3c4d3' }} onClick={() => swipe('right')}>Interview!</button>
       </div>
       {lastDirection ? (
         <h2 key={lastDirection} className='infoText'>
-          You swiped {lastDirection}
+          You swiped {lastDirection} 
         </h2>
       ) : (
         <h2 className='infoText'>
           Swipe a card or press a button to get Restore Card button visible!
         </h2>
       )}
+
+
+        <div className='buttons'>
+        <a href='https://my-react-app-faneleedison-ux.vercel.app/'>
+          <button  variant="contained"  >HOME</button>
+        </a>
+
+        </div>
+     
     </div>
   )
 }
