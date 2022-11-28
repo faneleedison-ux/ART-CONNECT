@@ -4,8 +4,10 @@ Art Connect is a South African business and employment-focused online service th
 
 FULL VIEWABLE CODE WITH ALL NODULES AND DEPENDENCIES ALONG WITH WEBSITE IS HOSTED ON GITHUB'S CODESANDBOX HERE:
 
+https://codesandbox.io/s/loving-haze-l99xpr
 
-https://codesandbox.io/s/loving-haze-l99xpr?file=/src/Components/Audience/Profile.js
+
+website depolyed too nelify:
 
 
 https://csb-l99xpr.netlify.app/
